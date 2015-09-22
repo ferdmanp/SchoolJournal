@@ -65,5 +65,9 @@
   <ItemGroup>
     <Build Include="dbo\Tables\CatalogSchools.sql" />
     <Build Include="dbo\Tables\CatalogClasses.sql" />
+    <Build Include="dbo\Tables\StudyYearsList.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PopulateStudyYears.sql" />
   </ItemGroup>
 </Project>
