@@ -35,7 +35,7 @@ namespace ShoolJournal
 
         protected void Application_Error()
         {
-            Logger.Info(@"Application Error occured");
+            Logger.Error(@"Application Error occured");
         }
     }
 }
